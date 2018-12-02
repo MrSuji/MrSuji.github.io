@@ -1,0 +1,144 @@
+<html lang="en">
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Document</title>
+    <style>
+        fieldset {
+        background-color: rgb(94, 133, 165);
+        border-radius: 20px;}
+        legend {background-color: rgb(94, 133, 165);
+        border-radius: 10px;
+            padding: 5;}
+            form {
+  font-style: italic;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: arial;
+}
+input[type=file] {
+  margin: 10px;
+
+}label {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #303c3e;
+}input[type=text] {
+  width: 200px;
+  border: 2px solid rgb(88, 92, 99);
+  border-radius: 5px;
+  color: #277fd0;
+  font-weight: bold;
+}
+
+input[type=email] {
+  width: 200px;
+  border: 2px solid rgb(88, 92, 99);
+  border-radius: 5px;
+  color: #277fd0;
+  font-weight: bold;
+}
+
+input[type=password] {
+  width: 200px;
+  border: 2px solid rgb(88, 92, 99);
+  border-radius: 5px;
+  color: #277fd0;
+  font-weight: bold;
+}
+
+textarea {
+  width: 300px;
+  border: 2px solid rgb(88, 92, 99);
+  border-radius: 5px;
+  color: #277fd0;
+  font-weight: bold;
+}
+
+input[type=date] {
+  border: 2px solid rgb(88, 92, 99);
+  border-radius: 5px;
+}
+
+input[type=number] {
+  border: 2px solid rgb(88, 92, 99);
+  border-radius: 5px;
+}
+
+select {
+  border: 2px solid rgb(88, 92, 99);
+  border-radius: 5px;
+}
+
+input[type=submit] {
+  width: 70px;
+  height: 30px;
+  border: 1.5px solid #21262e;
+  border-radius: 20px;
+  background-color: rgb(73, 150, 201);}
+  input[type=reset] {
+  width: 70px;
+  height: 30px;
+  border: 1.5px solid #21262e;
+  border-radius: 20px;
+  background-color: rgb(73, 150, 201);
+}
+
+    </style>
+</head>
+
+<body>
+    <strong>
+        <center>
+            <em>
+                <u> form </u>
+            </em>
+        </center>
+    </strong>
+    <form class="form" action="" method="POST">
+        <fieldset>
+            <legend>This is your form:</legend>
+            <form class="form" action="" method=""> First name <br>
+                <input placeholder="first name" type="text" name="firstname">
+                <br> <br> Last name:<br>
+                <input placeholder="last name" type="text" name="lastname"><br> <br> Age:<br><input type="text" value="18">
+                <br> <br> Gender:<br> <input type="radio" name="gender" id="" checked> Female <input type="radio" name="gender"
+                    id=""> Male <br> <br> Choose your country: <br>
+                <select name="country" id="">
+                    <option value="">USA</option>
+                    <option value="">UK</option>
+                    <option value="">Chanada</option>
+                    <option value="" selected>Bangladesh</option>
+                    <option value="">Pakistan</option>
+                    <option value="">Singapore</option>
+                    <option value="">Australia</option>
+                    <option value="">Syria</option>
+                </select> <br>
+                <br> Birthday and year:<br>
+                <input type="date" name="birthdate" id="" min="2000-9-24" max="2018-10-15">
+                <br> <br> Age: <br>
+                <input type="number" name="age" min="18" max="50" id="">
+                <br> <br> Email here: <br>
+                <input type="email" name="email" id=""><br>
+                <br> Password: <br> <input type="password" name="password" id="">
+                <br> <br> Your Fav color: <br>
+                <input type="color" name="" id="">
+                <br> <br> <label>Upload a file:</label> <br>
+                <input type="file" name="" id="">
+                <br><br> Your adress: <br>
+                <textarea placeholder="your adress here!" name="textarea" id="" cols="30" rows="10"></textarea>
+                <br><br>
+                <input class="padd" type="submit">
+                <input class="padd" type="reset">
+                <form class="form" action="" method="">
+                    <!-- Lorem ipsum dolor sit amet consectetu -->
+        </fieldset>
+    </form>
+    <br><br>
+    <a href="index.html">
+        <p>go back!</p>
+    </a><br><br>
+    <a href="index2.html">go to 2nd page</a>
+</body>
+
+</html>
