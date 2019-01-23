@@ -5,18 +5,18 @@ function jsfunc() {
   console.log(5 * 3);
 }
 jsfunc();
-var sayHello = function() {
+var sayHello = function () {
   console.log("Hellooooooooooo!!!!!!!!!!");
 };
 sayHello();
-var singers = function(singer) {
+var singers = function (singer) {
   console.log(singer);
 };
 singers("Ariana Grande");
 singers("Adam levine");
 singers("Adele");
 singers("Anne Marie");
-var multiply = function(a, b) {
+var multiply = function (a, b) {
   if (a >= 10 || b >= 10) {
     console.log("This is too difficult for me!!!");
   } else {
@@ -33,7 +33,7 @@ multiply();
 //     }
 // }
 // age();
-var driverage = function(age) {
+var driverage = function (age) {
   if (Number(age) > 18) {
     return "Enjoy your ride!!!!!!";
   } else if (Number(age) < 18) {
@@ -99,6 +99,3 @@ for (var i = 0; i < 4; i++) {
   console.log("for loop");
 }
 array = ["a", "b", "c", "d", "e"];
-array.forEach(function(letter, index) {
-  console.log(`this is ${index} -- ${letter}`);
-});
