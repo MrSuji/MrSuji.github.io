@@ -9,12 +9,7 @@ h1 {
   justify-content: center;
 }
 
-.head,
-.left_arm,
-.torso,
-.right_arm,
-.left_leg,
-.right_leg {
+.head, .left_arm, .torso, .right_arm, .left_leg, .right_leg {
   background-color: #5f93e8;
 }
 
@@ -41,8 +36,7 @@ h1 {
   display: flex;
 }
 
-.left_arm,
-.right_arm {
+.left_arm, .right_arm {
   width: 40px;
   height: 125px;
   border-radius: 100px;
@@ -70,8 +64,7 @@ h1 {
   display: flex;
 }
 
-.left_leg,
-.right_leg {
+.left_leg, .right_leg {
   width: 40px;
   height: 120px;
   border-radius: 0 0 100px 100px;
@@ -93,8 +86,7 @@ h1 {
   margin-left: 30px;
 }
 
-.left_eye,
-.right_eye {
+.left_eye, .right_eye {
   width: 20px;
   height: 20px;
   border-radius: 15px;

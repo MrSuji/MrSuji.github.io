@@ -47,26 +47,51 @@ var array = [
   ["tiger", "lion", "deer", "bear", "dog"]
 ];
 console.log(array[2]);
-var mix = [true, false, 1.48, 4, "string", undefined, function apple() {
-  console.log("apple");
-}];
+var mix = [
+  true,
+  false,
+  1.48,
+  4, "string",
+  undefined,
+  function apple() {
+    console.log("apple");
+  }
+];
 console.log(array[0][1]);
 var user = {
   name: "Suji",
   age: 19,
   isMarried: false,
   hobby: "cycling",
-  number: [0, 1, 2, 3, 4, 5, 6, 7],
+  number: [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ]
 };
-number2 = [0, 1, 2, 3, 4, {
-  name: "Suji",
-  age: 19,
-  isMarried: false,
-  hobby: "cycling",
-  shout: function spell() {
-    console.log("AAAAAAHHHHHHH!!!!!!");
-  }
-}, 5, 6, 7, ];
+number2 = [
+  0,
+  1,
+  2,
+  3,
+  4, {
+    name: "Suji",
+    age: 19,
+    isMarried: false,
+    hobby: "cycling",
+    shout: function spell() {
+      console.log("AAAAAAHHHHHHH!!!!!!");
+    }
+  },
+  5,
+  6,
+  7
+];
 // for (var i = 0; i < array.length; i++) {
 //   console.log(array[i]);
 // }
@@ -85,8 +110,7 @@ while (j > 0) {
 do {
   console.log("do while", i);
   i--;
-}
-while (i > 0);
+} while (i > 0);
 for (var i = 0; i < 5; i++) {
   console.log([i]);
 }

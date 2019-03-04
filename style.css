@@ -84,9 +84,7 @@ table {
   text-align: center;
 }
 
-table,
-td,
-th {
+table, td, th {
   border: 2px solid rgb(88, 94, 99);
   border-collapse: collapse;
 }
